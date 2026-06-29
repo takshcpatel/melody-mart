@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Instrument product image">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2a"/>
+      <stop offset="100%" stop-color="#16161f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="260" r="140" fill="#8b5cf6" opacity="0.08"/>
+  <g transform="translate(400 310)" stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round">
+    <rect x="-180" y="-70" width="360" height="110" rx="6"/>
+    <g stroke-width="3">
+      <rect x="-160" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="-130" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="-100" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="-70" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="-40" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="-10" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="20" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="50" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="80" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="110" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+      <rect x="140" y="-50" width="22" height="70" fill="#fff" fill-opacity="0.08"/>
+    </g>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#71717a" font-family="Poppins, Arial, sans-serif" font-size="28" letter-spacing="0.12em">DIGITAL PIANO</text>
+</svg>

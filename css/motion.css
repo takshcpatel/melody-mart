@@ -1,0 +1,283 @@
+/* MelodyMart — Serious motion graphics (SVG + CSS, no video) */
+
+/* ── Scroll reveal ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+
+/* ── Hero Bootstrap Icons motion ── */
+.hero-visual-inner {
+  font-size: unset;
+  padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-bi-scene {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-bi-ring {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  border-radius: 50%;
+  animation: mm-scan-pulse 4s ease-in-out infinite;
+}
+
+.hero-bi-icons {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.hero-bi-item {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  color: var(--accent-light);
+  font-size: 1.4rem;
+}
+
+.hero-bi-item.bi {
+  font-size: 1.4rem;
+}
+
+.hero-bi-1 { top: 0; left: 50%; transform: translateX(-50%); animation: mm-float-a 5s ease-in-out infinite; }
+.hero-bi-2 { top: 30%; right: 0; animation: mm-float-b 6s ease-in-out infinite; }
+.hero-bi-3 { bottom: 0; left: 50%; transform: translateX(-50%); animation: mm-float-c 5.5s ease-in-out infinite; }
+.hero-bi-4 { top: 30%; left: 0; animation: mm-float-b 6.5s ease-in-out infinite reverse; }
+.hero-bi-5 { top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2rem; width: 64px; height: 64px; animation: mm-icon-pulse 3s ease-in-out infinite; }
+
+.hero-bi-waveform {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.hero-bi-waveform .wave-bar {
+  display: block;
+  width: 6px;
+  height: 32px;
+  background: linear-gradient(180deg, var(--accent-light), var(--accent));
+  border-radius: 3px;
+  transform-origin: center bottom;
+  animation: mm-wave 1.8s ease-in-out infinite;
+}
+
+.hero-bi-tagline {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.wave-bar {
+  transform-origin: center bottom;
+  animation: mm-wave 1.8s ease-in-out infinite;
+}
+
+/* ── Stat & pillar icon hover ── */
+.stat-card .icon-stat,
+.pillar-card .icon-pillar,
+.process-step .icon-process {
+  color: var(--accent-light);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.stat-card:hover .icon-stat,
+.pillar-card:hover .icon-pillar {
+  transform: scale(1.06);
+}
+
+.category-card .icon-category {
+  font-size: 2.25rem;
+  color: var(--accent-light);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.category-card:hover .icon-category {
+  transform: translateY(-3px);
+}
+
+/* ── Process connector line ── */
+.process-flow {
+  position: relative;
+}
+
+.process-connector {
+  position: absolute;
+  top: 36px;
+  left: 20%;
+  right: 20%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0.4;
+  overflow: hidden;
+}
+
+.process-connector::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -30%;
+  width: 30%;
+  height: 100%;
+  background: var(--accent-light);
+  animation: mm-flow-line 3s ease-in-out infinite;
+}
+
+/* ── Page header ambient motion ── */
+.page-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(139, 92, 246, 0.12), transparent);
+  pointer-events: none;
+  animation: mm-ambient 8s ease-in-out infinite alternate;
+}
+
+.page-header .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── CTA banner subtle motion ── */
+.cta-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-banner::before {
+  content: '';
+  position: absolute;
+  inset: -50%;
+  background: conic-gradient(from 0deg, transparent, rgba(255,255,255,0.04), transparent 30%);
+  animation: mm-rotate-slow 20s linear infinite;
+}
+
+.cta-banner > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Logo icon (see also style.css) ── */
+@keyframes mm-float-a {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-6px); }
+}
+
+@keyframes mm-float-b {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes mm-float-c {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(6px); }
+}
+
+@keyframes mm-draw {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes mm-wave {
+  0%, 100% { transform: scaleY(0.35); opacity: 0.5; }
+  50% { transform: scaleY(1); opacity: 1; }
+}
+
+@keyframes mm-orbit {
+  from { transform: rotate(0deg) translateX(8px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(8px) rotate(-360deg); }
+}
+
+@keyframes mm-scan-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.15; }
+  50% { transform: scale(1.03); opacity: 0.28; }
+}
+
+@keyframes mm-grid-fade {
+  from { opacity: 0.08; }
+  to { opacity: 0.16; }
+}
+
+@keyframes mm-icon-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes mm-flow-line {
+  0% { left: -30%; }
+  100% { left: 100%; }
+}
+
+@keyframes mm-ambient {
+  from { opacity: 0.6; }
+  to { opacity: 1; }
+}
+
+@keyframes mm-rotate-slow {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .hero-draw,
+  .wave-bar,
+  .hero-bi-ring,
+  .hero-bi-item,
+  .icon-pulse,
+  .process-connector::after,
+  .page-header::after,
+  .cta-banner::before {
+    animation: none;
+  }
+
+  .hero-draw {
+    stroke-dashoffset: 0;
+  }
+}

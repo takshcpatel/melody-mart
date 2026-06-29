@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Instrument product image">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2a"/>
+      <stop offset="100%" stop-color="#16161f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="260" r="140" fill="#8b5cf6" opacity="0.08"/>
+  <g transform="translate(400 300)" stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round">
+    <rect x="-160" y="-50" width="320" height="90" rx="8"/>
+    <line x1="-120" y1="-10" x2="-80" y2="-10"/><line x1="-40" y1="-10" x2="0" y2="-10"/><line x1="40" y1="-10" x2="80" y2="-10"/><line x1="120" y1="-10" x2="160" y2="-10"/>
+    <line x1="-120" y1="20" x2="160" y2="20"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#71717a" font-family="Poppins, Arial, sans-serif" font-size="28" letter-spacing="0.12em">KEYBOARD</text>
+</svg>

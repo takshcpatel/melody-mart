@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Instrument product image">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2a"/>
+      <stop offset="100%" stop-color="#16161f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <text x="400" y="300" text-anchor="middle" fill="#71717a" font-family="Poppins, Arial, sans-serif" font-size="32">MELODYMART</text>
+  <text x="400" y="340" text-anchor="middle" fill="#8b5cf6" font-family="Poppins, Arial, sans-serif" font-size="20">INSTRUMENT</text>
+</svg>

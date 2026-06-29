@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Instrument product image">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2a"/>
+      <stop offset="100%" stop-color="#16161f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="260" r="140" fill="#8b5cf6" opacity="0.08"/>
+  <g transform="translate(400 280)" stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="0" cy="40" rx="120" ry="35"/>
+    <path d="M-80 40 L-80 -60 C-80 -110 -30 -140 0 -140 C30 -140 80 -110 80 -60 L80 40"/>
+    <line x1="0" y1="-140" x2="0" y2="-200"/>
+    <circle cx="0" cy="-200" r="8" fill="#a78bfa" stroke="none"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#71717a" font-family="Poppins, Arial, sans-serif" font-size="28" letter-spacing="0.12em">ACOUSTIC GUITAR</text>
+</svg>

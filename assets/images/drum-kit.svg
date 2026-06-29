@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Instrument product image">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2a"/>
+      <stop offset="100%" stop-color="#16161f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="260" r="140" fill="#8b5cf6" opacity="0.08"/>
+  <g transform="translate(400 300)" stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round">
+    <ellipse cx="0" cy="30" rx="130" ry="45"/>
+    <ellipse cx="0" cy="-20" rx="70" ry="55"/>
+    <ellipse cx="-90" cy="0" rx="45" ry="35"/>
+    <ellipse cx="90" cy="0" rx="45" ry="35"/>
+    <line x1="0" y1="-75" x2="0" y2="-120"/>
+    <line x1="-30" y1="-120" x2="30" y2="-120"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#71717a" font-family="Poppins, Arial, sans-serif" font-size="28" letter-spacing="0.12em">DRUM KIT</text>
+</svg>

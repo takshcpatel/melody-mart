@@ -1,0 +1,290 @@
+{
+  "categories": [
+  { "id": "string", "name": "String Instruments" },
+  { "id": "keyboard", "name": "Keyboard Instruments" },
+  { "id": "percussion", "name": "Percussion" },
+  { "id": "wind", "name": "Wind Instruments" }
+  ],
+  "products": [
+    {
+      "id": "acoustic-guitar",
+      "name": "Yamaha F310 Acoustic Guitar",
+      "category": "string",
+      "categoryName": "String Instruments",
+      "price": 8999,
+      "currency": "INR",
+      "image": "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:450/yamaha/492913090/0/09W4TxQ6pg-iPVAcCQhSV-Yamaha-V261320-Acoustic-Guitar-492913090-i-1-1200Wx1200H.jpeg",
+      "featured": true,
+      "skillLevel": "beginner",
+      "genres": ["folk", "pop", "country", "classical"],
+      "description": "The Yamaha F310 is one of the best-selling acoustic guitars worldwide, perfect for beginners and hobbyists. Its comfortable neck profile and balanced tone make it ideal for learning chords and fingerpicking.",
+      "specifications": {
+        "Body": "Spruce top, Meranti back and sides",
+        "Neck": "Nato",
+        "Fingerboard": "Rosewood",
+        "Scale Length": "25 inches",
+        "Strings": "6",
+        "Finish": "Natural"
+      },
+      "features": [
+        "Excellent value for beginners",
+        "Comfortable slim neck profile",
+        "Bright, balanced acoustic tone",
+        "Durable build quality",
+        "Includes padded gig bag"
+      ]
+    },
+    {
+      "id": "electric-guitar",
+      "name": "Fender Squier Bullet Stratocaster",
+      "category": "string",
+      "categoryName": "String Instruments",
+      "price": 14999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkZQRGleUsnsX5_TD6mcth0JB18kUJQzRMtveJHY93nw&s=10",
+      "featured": true,
+      "skillLevel": "beginner",
+      "genres": ["rock", "blues", "pop", "metal"],
+      "description": "The Squier Bullet Strat delivers iconic Fender tone at an affordable price. With three single-coil pickups and a comfortable C-shaped neck, it's the perfect entry point into electric guitar playing.",
+      "specifications": {
+        "Body": "Basswood",
+        "Neck": "Maple, C-shape",
+        "Fingerboard": "Indian Laurel",
+        "Pickups": "3 Single-coil",
+        "Bridge": "Hardtail 6-saddle",
+        "Scale Length": "25.5 inches"
+      },
+      "features": [
+        "Classic Stratocaster design",
+        "Versatile tone for multiple genres",
+        "Lightweight and comfortable",
+        "Easy to play for beginners",
+        "Great for rock and blues"
+      ]
+    },
+    {
+      "id": "keyboard",
+      "name": "Casio CT-S200 Portable Keyboard",
+      "category": "keyboard",
+      "categoryName": "Keyboard Instruments",
+      "price": 7999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRiAZM0yd2FHuM7xbjcF31VNaulaNVLYz0HOSDVN4AIXvNhSFC6eynd5slng9NW87mG-sYHz7pN-ASqTaRgDsS6fbghWyH7",
+      "featured": true,
+      "skillLevel": "beginner",
+      "genres": ["pop", "classical", "electronic", "worship"],
+      "description": "A compact, lightweight keyboard with 61 full-size keys and 400 built-in tones. Perfect for students and beginners who want to explore piano playing without a large investment.",
+      "specifications": {
+        "Keys": "61 full-size",
+        "Tones": "400",
+        "Rhythms": "77",
+        "Polyphony": "48 notes",
+        "Speakers": "Built-in stereo",
+        "Power": "Battery or AC adapter"
+      },
+      "features": [
+        "Ultra-portable design",
+        "400 high-quality tones",
+        "Dance Music Mode for beginners",
+        "USB MIDI connectivity",
+        "Battery powered for portability"
+      ]
+    },
+    {
+      "id": "piano",
+      "name": "Roland FP-10 Digital Piano",
+      "category": "keyboard",
+      "categoryName": "Keyboard Instruments",
+      "price": 42999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRGKGJS2XrJQKS86wDK8wLaOd2aQct6xAWlvZvfukqlu93ihr6_IJyvAScMrPdjXqB3wRMX2d_ff0fbpQ5HkqFlTmZMdcLh_ApNvBG0tuzOaEYP0yiBDtUk",
+      "featured": true,
+      "skillLevel": "intermediate",
+      "genres": ["classical", "jazz", "pop", "contemporary"],
+      "description": "The Roland FP-10 offers authentic piano feel with 88 weighted keys and SuperNATURAL piano sound engine. Ideal for serious students and home practice with headphone-friendly design.",
+      "specifications": {
+        "Keys": "88 PHA-4 Standard",
+        "Sound Engine": "SuperNATURAL Piano",
+        "Polyphony": "96 notes",
+        "Speakers": "2 x 6W",
+        "Connectivity": "Bluetooth, USB",
+        "Pedals": "Damper (sustain)"
+      },
+      "features": [
+        "Realistic weighted key action",
+        "Premium piano sound quality",
+        "Bluetooth audio and MIDI",
+        "Compact and stylish design",
+        "Headphone practice mode"
+      ]
+    },
+    {
+      "id": "drum-kit",
+      "name": "Pearl Roadshow 5-Piece Drum Kit",
+      "category": "percussion",
+      "categoryName": "Percussion",
+      "price": 34999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS5n145PE6wFv_KYubylk2T2QeUjb8T9Wk7bIXJTkSZ2wS7h3WFjJLl4WOWBZJHFleoieiqnjOF2yp_pVlkGX5_56vAjUgbp_o8GexHnvWoyxWmxJSe4gDD",
+      "featured": false,
+      "skillLevel": "beginner",
+      "genres": ["rock", "pop", "jazz", "funk"],
+      "description": "A complete 5-piece drum kit with everything a beginner drummer needs. Includes shells, hardware, cymbals, throne, and sticks — ready to play right out of the box.",
+      "specifications": {
+        "Configuration": "5-piece (Bass, Snare, 2 Toms, Floor Tom)",
+        "Shell Material": "Poplar",
+        "Bass Drum": "22 x 16 inches",
+        "Snare": "14 x 5.5 inches",
+        "Cymbals": "14-inch Hi-Hat, 16-inch Crash",
+        "Hardware": "Full set included"
+      },
+      "features": [
+        "Complete starter kit",
+        "Quality poplar shells",
+        "Includes cymbals and hardware",
+        "Adjustable drum throne included",
+        "Great for rock and pop styles"
+      ]
+    },
+    {
+      "id": "violin",
+      "name": "Stentor Student II Violin",
+      "category": "string",
+      "categoryName": "String Instruments",
+      "price": 18999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRrxL2r6qzmxRaGQP2uCyd_AGDGDhHdt20UXnnHvMTLhQw-95SjGP6JfA4-fp0DM_kpUukE7g1O35Q2P_fwnSa52YSAnJC1eKqSXG6caPKMHq-qL6idVkW3",
+      "featured": false,
+      "skillLevel": "beginner",
+      "genres": ["classical", "folk", "orchestral"],
+      "description": "A trusted student violin used in music schools worldwide. Hand-carved solid spruce top with maple back and sides, delivering warm tone and reliable intonation for learners.",
+      "specifications": {
+        "Size": "4/4 Full Size",
+        "Top": "Solid Spruce",
+        "Back & Sides": "Maple",
+        "Fingerboard": "Ebony",
+        "Strings": "4",
+        "Bow": "Brazilwood included"
+      },
+      "features": [
+        "Hand-carved solid wood construction",
+        "Trusted by music educators",
+        "Warm, clear tone",
+        "Complete outfit with case and bow",
+        "Ideal for classical training"
+      ]
+    },
+    {
+      "id": "ukulele",
+      "name": "Kala KA-15S Soprano Ukulele",
+      "category": "string",
+      "categoryName": "String Instruments",
+      "price": 3499,
+      "currency": "INR",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRF-Oo_AadVyCmRv-Hnh0tVAsWABbxd81Cb4YCAxSqlLiZryVcUDKi-71BP7MPuNCP6Qq27S_pDXWTuNiOjpfVFcTEBXYRKKSManEzM5UzRn4TP1oqpP-U6",
+      "featured": true,
+      "skillLevel": "beginner",
+      "genres": ["folk", "pop", "hawaiian", "indie"],
+      "description": "The most affordable way to start making music! This soprano ukulele has a bright, cheerful sound and only four nylon strings, making it incredibly easy for absolute beginners.",
+      "specifications": {
+        "Size": "Soprano (21 inches)",
+        "Top": "Mahogany",
+        "Back & Sides": "Mahogany",
+        "Neck": "Mahogany",
+        "Strings": "4 Nylon",
+        "Finish": "Satin"
+      },
+      "features": [
+        "Most affordable instrument in our store",
+        "Only 4 strings — easiest to learn",
+        "Compact and travel-friendly",
+        "Bright, happy tone",
+        "Perfect first instrument for kids and adults"
+      ]
+    },
+    {
+      "id": "flute",
+      "name": "Yamaha YFL-222 Student Flute",
+      "category": "wind",
+      "categoryName": "Wind Instruments",
+      "price": 24999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTt79IudWYuColFhU0d7UnbG_OgxUJ-EccpDOdUt4d8gPZGY2WbLL0aTznYhBo8tPxjB1fgqQ_HoV6GX9LClZtA8mNsFAo-AVPMZKDe1gZyLIpKPozCxXS4",
+      "featured": false,
+      "skillLevel": "beginner",
+      "genres": ["classical", "orchestral", "jazz", "folk"],
+      "description": "A reliable student flute with silver-plated finish and offset G key for comfortable playing. Yamaha's proven design helps beginners develop proper embouchure and technique.",
+      "specifications": {
+        "Material": "Nickel Silver, Silver-plated",
+        "Keys": "Closed hole, Offset G",
+        "Foot Joint": "C foot",
+        "Head Joint": "Standard",
+        "Case": "Hard case included",
+        "Cleaning Rod": "Included"
+      },
+      "features": [
+        "Silver-plated for durability",
+        "Offset G for smaller hands",
+        "Consistent intonation",
+        "Trusted by band programs",
+        "Includes hard case"
+      ]
+    },
+    {
+      "id": "cajon",
+      "name": "Meinl Headliner Series Cajon",
+      "category": "percussion",
+      "categoryName": "Percussion",
+      "price": 6499,
+      "currency": "INR",
+      "image": "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "featured": false,
+      "skillLevel": "beginner",
+      "genres": ["flamenco", "acoustic", "folk", "world"],
+      "description": "A versatile box drum that replaces a full drum kit in acoustic settings. Play it with your hands while sitting on top — no sticks needed. Perfect for campfire jams and unplugged sessions.",
+      "specifications": {
+        "Material": "Baltic Birch",
+        "Dimensions": "18.5 x 12 x 12 inches",
+        "Playing Surface": "Birch front plate",
+        "Snare": "Internal adjustable snare",
+        "Finish": "Natural Matte",
+        "Weight": "5.5 kg"
+      },
+      "features": [
+        "No sticks required — play with hands",
+        "Portable acoustic percussion",
+        "Adjustable snare wires",
+        "Great for acoustic and flamenco",
+        "Affordable percussion option"
+      ]
+    },
+    {
+      "id": "bass-guitar",
+      "name": "Squier Affinity Jazz Bass",
+      "category": "string",
+      "categoryName": "String Instruments",
+      "price": 19999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQU7FWSGtBDfLTcKnCMzEiYoDbMsyNowVAqbJDiVraNH2diyMfPVnykCn6M8JOzuU-YSq2cmzXg95JghzD-Cg0jd2MJHqE7gHG0-ppqFCQ",
+      "featured": false,
+      "skillLevel": "intermediate",
+      "genres": ["rock", "funk", "jazz", "pop"],
+      "description": "The Jazz Bass delivers deep, punchy low-end tones essential for any band. With a slim neck and versatile dual-pickup configuration, it's a solid choice for aspiring bassists.",
+      "specifications": {
+        "Body": "Alder",
+        "Neck": "Maple, C-shape",
+        "Fingerboard": "Indian Laurel",
+        "Pickups": "2 Single-coil Jazz Bass",
+        "Scale Length": "34 inches",
+        "Strings": "4"
+      },
+      "features": [
+        "Classic Jazz Bass tone",
+        "Slim, fast neck profile",
+        "Versatile for funk and rock",
+        "Essential for band musicians",
+        "Quality Fender/Squier build"
+      ]
+    }
+  ]
+}
